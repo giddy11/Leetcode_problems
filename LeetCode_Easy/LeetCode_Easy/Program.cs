@@ -11,7 +11,7 @@ int ClimbStairs(int n)
     int prev2 = 2;
     int current = 0;
 
-    for (int i = 2; i < n; i++)
+    for (int i = 3; i <= n; i++)
     {
         current = prev1 + prev2;
         prev1 = prev2;
