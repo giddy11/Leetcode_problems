@@ -40,3 +40,25 @@ bool x = test.IsPalindrome(-101);
 
 
 Console.WriteLine(x);
+
+
+/*
+ 
+ var newList = new List<string> ();
+    var count = 0;
+
+    customers.Sort();
+
+    for (int i = 0; customers[i] != null; i++)
+    {
+        if (customers[i] == customers[i+1] && count < 5)
+        {
+            count++;
+            continue;
+        }
+        if (count >= 4 && customers[i] == customers[i - 1])
+            newList.Add(customers[i]);
+
+        count = 0;
+    }
+ */

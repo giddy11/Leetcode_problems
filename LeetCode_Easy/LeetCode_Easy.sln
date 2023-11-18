@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32630.192
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeetCode_Easy", "LeetCode_Easy\LeetCode_Easy.csproj", "{98A4B6DD-887C-41B7-B9D1-0804FAB2B23D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LeetCode_Easy", "LeetCode_Easy\LeetCode_Easy.csproj", "{98A4B6DD-887C-41B7-B9D1-0804FAB2B23D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Hackerrank", "Hackerrank", "{848B7E3D-954E-4295-AA5E-263D0AC55A2F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp1", "ConsoleApp1\ConsoleApp1.csproj", "{A142BBD6-650B-4087-A5EE-6545B6FB95D8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,9 +19,16 @@ Global
 		{98A4B6DD-887C-41B7-B9D1-0804FAB2B23D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{98A4B6DD-887C-41B7-B9D1-0804FAB2B23D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{98A4B6DD-887C-41B7-B9D1-0804FAB2B23D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A142BBD6-650B-4087-A5EE-6545B6FB95D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A142BBD6-650B-4087-A5EE-6545B6FB95D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A142BBD6-650B-4087-A5EE-6545B6FB95D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A142BBD6-650B-4087-A5EE-6545B6FB95D8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A142BBD6-650B-4087-A5EE-6545B6FB95D8} = {848B7E3D-954E-4295-AA5E-263D0AC55A2F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {31C87BE6-210B-46B2-AEAD-0C75ED5F856A}
